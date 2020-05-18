@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="feedback1">
-        <a onclick="window._qsie = window._qsie || [];window._qsie.push('feedback2');" href="">Google</a>
+        <a id="feedback1" onclick="window._qsie = window._qsie || [];window._qsie.push('feedback2');">Google</a>
 
     </div>
     <button id="feedback3" onclick="window._qsie = window._qsie || [];window._qsie.push('feedback3');"></button>  
@@ -23,7 +23,7 @@
 var modal = document.getElementById("target");
 
 // Get the button that opens the modal
-var btn = document.getElementById("feedback3");
+var btn = document.getElementById("feedback1");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
